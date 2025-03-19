@@ -1,0 +1,183 @@
+* {
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container-img img {
+    width: 500px;
+    height: 420px;
+}
+
+.container-img,
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-title {
+    width: 344px;
+    height: 69px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #1A202C;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #1A202C;
+}
+
+.form-input {
+    width: 400;
+    height: 419;
+    gap: 56px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 18px;
+    color: #1A202C;
+}
+
+.form-mail-password {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-mail-password input {
+    width: 400;
+    height: 49;
+    padding: 16px;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: #F7FAFC;
+    border-color: #E2E8F0;
+    font-size: 16px;
+    border: 1px solid #E8E8E8
+}
+
+.form-input-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-input-check div {
+    display: flex;
+    align-items: center;
+}
+
+.form-input-check label {
+    font-family: Archivo;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-input-check input {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.form-input-check input:checked {
+    background-color: #1E9E6A;
+}
+
+.form-input-check a {
+    font-family: Archivo;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #1E9E6A;
+    text-decoration: none;
+}
+
+.form-input-button {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.form-input-button button {
+    width: 400;
+    height: 52;
+    gap: 12px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+}
+
+.entrar {
+    background-color: #1E9E6A;
+}
+
+.google {
+    background-color: #1A202C;
+}
+
+button p {
+    font-family: Archivo;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-input-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form-input-cadastro a {
+    text-decoration: none;
+    color: #1E9E6A;
+}

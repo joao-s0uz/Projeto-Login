@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -22,19 +26,26 @@
             </div>
             <div class="form-input">
                 <form action="">
-                    <label for="">E-mail</label>
-                    <input type="email" name="email" id="email">
-                    <label for="">Senha</label>
-                    <input type="password" name="password" id="password">
+                    <div class="form-mail-password">
+                        <label for="">E-mail</label>
+                        <input type="email" name="email" id="email">
+                        <label for="">Senha</label>
+                        <input type="password" name="password" id="password">
+                    </div>
                     <div class="form-input-check">
-                        <input type="checkbox" name="lembrar" id="lembrar">
-                        <label for="lembrar">Lembrar de mim</label>
+                        <div>
+                            <input type="checkbox" name="lembrar" id="lembrar">
+                            <label for="lembrar">Lembrar de mim</label>
+                        </div>
                         <a href="#">Esqueceu a senha?</a>
                     </div>
                     <div class="form-input-button">
-                        <button type="submit">Entrar na conta</button>
-                        <button>
-                            <img src="img/icon.svg" alt=""> Ou faça login com o Google
+                        <button type="submit" class="entrar">
+                            <p>Entrar na conta</p>
+                        </button>
+                        <button class="google">
+                            <img src="img/icon.svg" alt="">
+                            <p>Ou faça login com o Google</p>
                         </button>
                     </div>
                     <div class="form-input-cadastro">
